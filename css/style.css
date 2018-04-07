@@ -1,0 +1,43 @@
+:root {
+    --base: #ffc600;
+    --spacing: 0px;
+    --round: 0px;
+    --width: 50%;
+    --filter: 0;
+}
+
+img {
+    background: var(--base);
+    padding: var(--spacing);
+    border-radius: var(--round);
+    width: var(--width);
+    height: auto;
+    filter: var(--filter);
+    -webkit-filter: var(--filter);
+}
+
+.hl {
+    color: var(--base);
+}
+
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 26px;
+  line-height: 42px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+#url {
+    width: 400px;
+}
